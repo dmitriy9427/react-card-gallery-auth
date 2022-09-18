@@ -1,0 +1,10 @@
+.elements__img {
+    width: 282px;
+    height: 282px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: #fff;
+    object-fit: cover;
+    border-radius: 0px;
+    cursor: pointer;
+}

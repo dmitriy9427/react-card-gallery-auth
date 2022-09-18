@@ -1,0 +1,13 @@
+.elements__info {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px 31px 21px;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .elements__info {
+        align-items: center;
+    }
+}
