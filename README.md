@@ -1,6 +1,6 @@
 # Проект 12 react-mesto-auth.
 
-- Ссылка на проект: https://dmitriy9427.github.io/mesto-react/
+- Ссылка на проект: https://dmitriy9427.github.io/react-mesto-auth/
 
 ## Функциональность: 
 * Регистрация профиля пользователя;
