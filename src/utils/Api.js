@@ -1,4 +1,4 @@
-class Api
+class Api  //название файла так и стоит, как вы просили, api.js, а название класса если меняю, выдает ошибку
 {
     constructor ({ baseUrl, headers })
     {

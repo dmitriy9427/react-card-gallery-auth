@@ -164,7 +164,8 @@ function App()
         api.changeLikeCardStatus(card._id, !isLiked).then((newCard) =>
         {
             setCards((state) => state.map((c) => (c._id === card._id ? newCard : c)));
-        });
+        })
+        .catch(console.log);
     }
 
     const handleConfirmRemove = () =>
@@ -220,14 +221,6 @@ function App()
             })
             .catch(console.log);
     }
-
-    const handleClickOnPopup = (e) =>
-    {
-        if (e.target.classList.contains('popup') || e.target.classList.contains('popup__close')) {
-            //реализация закрытия по клику на оверлей либо по клику на крестик
-            closeAllPopups();
-        }
-    };
 
     const closeByEsc = (e) =>
     {
@@ -303,36 +296,36 @@ function App()
 
                 <EditProfilePopup
                     isOpen={isEditProfilePopupOpen}
-                    onClose={handleClickOnPopup}
+                    onClose={closeAllPopups}
                     onUpdateUser={handleUpdateUser}
                 />
 
                 <AddPlacePopup
                     isOpen={isAddPlacePopupOpen}
-                    onClose={handleClickOnPopup}
+                    onClose={closeAllPopups}
                     onAddPlace={handleAddNewCard}
                 />
 
                 <EditAvatarPopup
                     isOpen={isEditAvatarPopupOpen}
-                    onClose={handleClickOnPopup}
+                    onClose={closeAllPopups}
                     onUpdateAvatar={handleUpdateAvatar}
                 />
                 <ImagePopup
                     isOpen={isImagePopupOpen}
                     card={selectedCard}
-                    onClose={handleClickOnPopup}
+                    onClose={closeAllPopups}
                 />
                 <RemoveCardPopup
                     isOpen={isRemoveCardPopupOpened}
-                    onClose={handleClickOnPopup}
+                    onClose={closeAllPopups}
                     onConfirmRemove={handleConfirmRemove}
                 />
                 <InfoTooltip
                     isOpen={isInfoTooltipPopupOpen}
                     image={popupImage}
                     title={popupTitle}
-                    onClose={handleClickOnPopup} />
+                    onClose={closeAllPopups} />
             </div>
         </CurrentUserContext.Provider>
     );
