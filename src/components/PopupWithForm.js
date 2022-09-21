@@ -25,8 +25,9 @@ function PopupWithForm({
           {children}
           <button
             type="submit"
+            name={`${name}`}
             className="popup__save-btn button">
-            {buttonText || 'Сохранить'}
+            {buttonText}
           </button>
         </form>
       </div>
