@@ -27,9 +27,9 @@
 ## Работа с проектом: 
 Для запуска проекта, пожалуйста, выполните следующие действия:
 
-* 1.Склонировать проект на ваш компьютер с Github с помощью команды:
-* git clone https://github.com/dmitriy9427/react-mesto-auth.git
-* 2.Установить зависимости:
-* npm install
-* 3.Запустить проект:
-* npm start
+- 1.Склонировать проект на ваш компьютер с Github с помощью команды:
+ git clone https://github.com/dmitriy9427/react-mesto-auth.git
+- 2.Установить зависимости:
+ npm install
+- 3.Запустить проект:
+ npm start
