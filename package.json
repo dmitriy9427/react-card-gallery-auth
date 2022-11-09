@@ -1,11 +1,22 @@
 {
+  "homepage": "https://dmitriy9427.github.io/react-mesto-auth/",
   "name": "react-mesto-auth",
   "version": "1.0.0",
   "description": "- Ссылка на проект: https://dmitriy9427.github.io/react-mesto-auth/",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d buid",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -15,13 +26,24 @@
     "type": "git",
     "url": "git+https://github.com/dmitriy9427/react-mesto-auth.git"
   },
-  "author": "",
+  "author": "Dmitry",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dmitriy9427/react-mesto-auth/issues"
   },
-  "homepage": "https://dmitriy9427.github.io/react-mesto-auth/",
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
