@@ -1,7 +1,7 @@
 class Api {
-  constructor({ baseUrl, headers }) {
+  constructor({ Url, headers }) {
     this._headers = headers;
-    this._baseUrl = baseUrl;
+    this._Url = Url;
   }
 
   //проверка ответа от сервера
@@ -14,23 +14,38 @@ class Api {
 
   //получение данных профиля
   getProfile() {
-    return fetch(`${this._baseUrl}/users/me`, {
-      headers: this._headers,
+    return fetch(`${this._Url}/users/me`, {
+      credentials: "include",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
     }).then(this._checkResponse);
   }
 
   //получение карточек
   getInitialCards() {
-    return fetch(`${this._baseUrl}/cards`, {
-      headers: this._headers,
+    return fetch(`${this._Url}/cards`, {
+      credentials: "include",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
     }).then(this._checkResponse);
   }
 
   //редактирование профиля
   editProfile(name, about) {
-    return fetch(`${this._baseUrl}/users/me`, {
+    return fetch(`${this._Url}/users/me`, {
+      credentials: "include",
       method: "PATCH",
-      headers: this._headers,
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
       body: JSON.stringify({
         name,
         about,
@@ -40,9 +55,14 @@ class Api {
 
   //добавление новых карточек
   addNewCard(name, link) {
-    return fetch(`${this._baseUrl}/cards`, {
+    return fetch(`${this._Url}/cards`, {
+      credentials: "include",
       method: "POST",
-      headers: this._headers,
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
       body: JSON.stringify({
         name,
         link,
@@ -52,34 +72,45 @@ class Api {
 
   //удаление карточек
   deleteCard(id) {
-    return fetch(`${this._baseUrl}/cards/${id}`, {
+    return fetch(`${this._Url}/cards/${id}`, {
+      credentials: "include",
       method: "DELETE",
-      headers: this._headers,
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
     }).then(this._checkResponse);
   }
 
   //удаление и постановка лайков
   changeLikeCardStatus(id, likeStatus) {
-    return fetch(`${this._baseUrl}/cards/${id}/likes`, {
+    return fetch(`${this._Url}/cards/${id}/likes`, {
+      credentials: "include",
       method: likeStatus ? "PUT" : "DELETE",
-      headers: this._headers,
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
     }).then(this._checkResponse);
   }
 
   //редактирование аватара
   changeAvatar(link) {
-    return fetch(`${this._baseUrl}/users/me/avatar`, {
+    return fetch(`${this._Url}/users/me/avatar`, {
+      credentials: "include",
       method: "PATCH",
-      headers: this._headers,
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+      },
       body: JSON.stringify({ avatar: link }),
     }).then(this._checkResponse);
   }
 }
 
 export const api = new Api({
-  baseUrl: "https://mesto.nomoreparties.co/v1/cohort-47",
-  headers: {
-    authorization: "713e9fcb-7164-40b1-8a98-089d93e7cbcd",
-    'Content-Type': "application/json",
-  },
+  Url: "https://domainname.ryabov1994.nomoredomains.icu",
 });

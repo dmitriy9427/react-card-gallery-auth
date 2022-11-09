@@ -1,4 +1,4 @@
-export const BASE_URL = "https://auth.nomoreparties.co";
+export const URL = "https://domainname.ryabov1994.nomoredomains.icu";
 
 function checkResponse(res) {
   if (res.ok) {
@@ -8,7 +8,8 @@ function checkResponse(res) {
 }
 
 export function registerUser(email, password) {
-  return fetch(`${BASE_URL}/signup`, {
+  return fetch(`${URL}/signup`, {
+    credentials: "include",
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -18,7 +19,8 @@ export function registerUser(email, password) {
 }
 
 export function loginUser(email, password) {
-  return fetch(`${BASE_URL}/signin`, {
+  return fetch(`${URL}/signin`, {
+    credentials: "include",
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -28,7 +30,8 @@ export function loginUser(email, password) {
 }
 
 export function getToken(jwt) {
-  return fetch(`${BASE_URL}/users/me`, {
+  return fetch(`${URL}/users/me`, {
+    credentials: "include",
     method: "GET",
     headers: {
       "Content-Type": "application/json",
