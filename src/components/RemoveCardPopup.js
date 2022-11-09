@@ -1,12 +1,10 @@
-import PopupWithForm from './PopupWithForm';
+import PopupWithForm from "./PopupWithForm";
 
-const RemoveCardPopup = ({ isOpen, onClose, onConfirmRemove }) =>
-{
-  const onSubmit = (e) =>
-  {
+const RemoveCardPopup = ({ isOpen, onClose, onConfirmRemove }) => {
+  const onSubmit = (e) => {
     e.preventDefault();
-    onConfirmRemove()
-  }
+    onConfirmRemove();
+  };
 
   return (
     <PopupWithForm
