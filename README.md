@@ -1,6 +1,6 @@
 # Проект Галерея карточек.
 
-<a href="https://github.com/dmitriy9427//react-card-gallery-auth" target="_blank">Ссылка на проект</a>
+<a href="https://dmitriy9427.github.io/react-card-gallery-auth/" target="_blank">Ссылка на проект</a>
 
 ## Функциональность:
 
