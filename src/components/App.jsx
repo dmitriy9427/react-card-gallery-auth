@@ -17,7 +17,6 @@ import { registerUser, loginUser, getToken } from "../utils/auth";
 import RemoveCardPopup from "./RemoveCardPopup";
 import error from "../images/error.svg";
 import success from "../images/success.svg";
-import { changeLikeCardStatus } from "../utils/api";
 
 function App() {
   const navigate = useNavigate();
@@ -46,8 +45,15 @@ function App() {
       })
       .catch(() => {
         setPopupImage(error);
-        setPopupTitle("Что-то пошло не так! Попробуйте ещё раз.");
+        setPopupTitle(
+          "Вероятно вы ввели не правильно данные! Попробуйте ещё раз."
+        );
         handleInfoTooltipClick();
+      })
+      .finally(() => {
+        setTimeout(() => {
+          setIsInfoTooltipPopupOpen(false);
+        }, 1200);
       });
   }
 
@@ -62,7 +68,11 @@ function App() {
         setPopupImage(error);
         setPopupTitle("Что-то пошло не так! Попробуйте ещё раз.");
       })
-      .finally(handleInfoTooltipClick);
+      .finally(() => {
+        setTimeout(() => {
+          setIsInfoTooltipPopupOpen(false);
+        }, 1000);
+      });
   }
 
   useEffect(() => {
