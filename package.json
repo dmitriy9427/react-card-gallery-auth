@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dmitriy9427.github.io/react-card-gallery-auth/index.html",
-  "name": "mesto",
+  "homepage": "https://dmitriy9427.github.io/react-card-gallery-auth/",
+  "name": "card-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
