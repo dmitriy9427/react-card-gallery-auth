@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-card-gallery-auth/index.html/static/css/main.dcbb9320.css",
-    "main.js": "/react-card-gallery-auth/index.html/static/js/main.7776354a.js",
+    "main.js": "/react-card-gallery-auth/index.html/static/js/main.a45b6e29.js",
     "static/media/Inter-Medium.woff": "/react-card-gallery-auth/index.html/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/react-card-gallery-auth/index.html/static/media/Inter-Black.c6938660eec019fefd68.woff",
     "static/media/Inter-Regular.woff": "/react-card-gallery-auth/index.html/static/media/Inter-Regular.8c206db99195777c6769.woff",
@@ -18,10 +18,10 @@
     "static/media/Close-Icon.svg": "/react-card-gallery-auth/index.html/static/media/Close-Icon.039f1f5203f653b4bacd.svg",
     "static/media/Vector.svg": "/react-card-gallery-auth/index.html/static/media/Vector.bed8c136e13907f5eefb.svg",
     "main.dcbb9320.css.map": "/react-card-gallery-auth/index.html/static/css/main.dcbb9320.css.map",
-    "main.7776354a.js.map": "/react-card-gallery-auth/index.html/static/js/main.7776354a.js.map"
+    "main.a45b6e29.js.map": "/react-card-gallery-auth/index.html/static/js/main.a45b6e29.js.map"
   },
   "entrypoints": [
     "static/css/main.dcbb9320.css",
-    "static/js/main.7776354a.js"
+    "static/js/main.a45b6e29.js"
   ]
 }
