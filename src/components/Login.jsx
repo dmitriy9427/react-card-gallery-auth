@@ -30,9 +30,7 @@ function Login({ onLogin }) {
           autoComplete="on"
           required
         />
-        {email.length === 0 && (
-          <span className="error-message">Email не должен быть пустым</span>
-        )}
+
         <input
           className="login__input"
           type="password"
