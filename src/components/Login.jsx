@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Login(props) {
+function Login({ onLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -14,7 +14,7 @@ function Login(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.onLogin(email, password);
+    onLogin(email, password);
   }
 
   return (
@@ -30,6 +30,9 @@ function Login(props) {
           autoComplete="on"
           required
         />
+        {email.length === 0 && (
+          <span className="error-message">Email не должен быть пустым</span>
+        )}
         <input
           className="login__input"
           type="password"
@@ -39,9 +42,14 @@ function Login(props) {
           onChange={handlePasswordInput}
           required
         />
-        <button className="button  login__button" type="submit">
+        <button
+          disabled={email.length === 0 || password.length === 0 ? true : false}
+          className="button login__button"
+          type="submit"
+        >
           Войти
         </button>
+        {}
       </form>
     </div>
   );

@@ -1,11 +1,16 @@
-.login__button{
-    margin: 0;
-    width: 358px;
-    height: 50px;
-    background-color: #FFFFFF;
-    margin-top: 216px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #000;
+.login__button {
+  margin: 0;
+  width: 358px;
+  height: 50px;
+  background-color: #ffffff;
+  margin-top: 216px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #000;
+}
+
+.login__button:disabled {
+  cursor: no-drop;
+  background-color: #464444;
 }
