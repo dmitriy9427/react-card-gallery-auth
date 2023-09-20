@@ -1,4 +1,4 @@
-# Проект react-mesto-auth.
+# Проект галерея карточек.
 
 <a href="https://dmitriy9427.github.io/react-mesto-auth/" target="_blank">Ссылка на проект</a>
 
@@ -13,19 +13,17 @@
 - Открытие и закрытие модальных окон;
 - Постановка и удаление лайков;
 
-Полный функционал сайта доступен только зарегистрированным пользователям.
-
 ## Технологический стэк:
 
 - HTML5;
 - CCS3(БЭМ);
 - JS;
 - React.js;
+  - функциональные компоненты React;
+  - ReactHooks(useEffect, useState, useRef, useContext)
+  - ReactRouter(v6.4);
 - REST API;
 - Асинхронные запросы;
-- ReactHooks;
-- ReactRoutes;
-- функциональные компоненты React;
 
 ## Работа с проектом:
 

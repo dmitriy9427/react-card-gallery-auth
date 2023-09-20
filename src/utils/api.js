@@ -83,3 +83,24 @@ export const api = new Api({
     "Content-Type": "application/json",
   },
 });
+
+// export async function changeLikeCardStatus(id, likeStatus) {
+//   // return fetch(`${this._baseUrl}/cards/${id}/likes`, {
+//   //   method: likeStatus ? "PUT" : "DELETE",
+//   //   headers: this._headers,
+//   // }).then(this._checkResponse);
+//   try {
+//     const res = await fetch(
+//       `$https://mesto.nomoreparties.co/v1/cohort-47/cards/${id}/likes`,
+//       {
+//         method: likeStatus ? "PUT" : "DELETE",
+//         headers: this._headers,
+//       }
+//     );
+//     if (!res.ok) {
+//       throw new Error("Не удалось поставить лайк");
+//     }
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }

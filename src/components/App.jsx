@@ -17,6 +17,7 @@ import { registerUser, loginUser, getToken } from "../utils/auth";
 import RemoveCardPopup from "./RemoveCardPopup";
 import error from "../images/error.svg";
 import success from "../images/success.svg";
+import { changeLikeCardStatus } from "../utils/api";
 
 function App() {
   const navigate = useNavigate();
@@ -86,7 +87,7 @@ function App() {
           setCurrentUser(userData);
           setCards(cards);
         })
-        .catch(console.log);
+        .catch((err) => console.log(err));
     }
   }, [loggedIn]);
 
@@ -223,7 +224,7 @@ function App() {
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
-      <div className="page">
+      <body className="page">
         <Routes>
           <Route
             path="/sign-in"
@@ -311,7 +312,7 @@ function App() {
           title={popupTitle}
           onClose={closeAllPopups}
         />
-      </div>
+      </body>
     </CurrentUserContext.Provider>
   );
 }

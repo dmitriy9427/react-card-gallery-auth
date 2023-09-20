@@ -12,7 +12,6 @@ function Main({
   cards,
 }) {
   const currentUser = React.useContext(CurrentUserContext);
-
   return (
     <main className="content">
       <section className="profile">
@@ -50,15 +49,16 @@ function Main({
       </section>
       <section className="elements">
         <ul className="elements__items">
-          {cards.map((card) => (
-            <Card
-              key={card._id}
-              card={card}
-              onCardClick={onCardClick}
-              onCardLike={onCardLike}
-              onCardDelete={onCardDelete}
-            />
-          ))}
+          {cards &&
+            cards.map((card) => (
+              <Card
+                key={card._id}
+                card={card}
+                onCardClick={onCardClick}
+                onCardLike={onCardLike}
+                onCardDelete={onCardDelete}
+              />
+            ))}
         </ul>
       </section>
     </main>

@@ -25,12 +25,14 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace }) {
 
   return (
     <PopupWithForm
-      title="Новое место"
-      buttonText="Создать"
+      title="Добавить карточку"
+      buttonText="Добавить"
       name="add-cards"
       isOpen={isOpen}
       onClose={onClose}
       onSubmit={handleAddPlaceSubmit}
+      link={link}
+      names={name}
     >
       <input
         type="text"
