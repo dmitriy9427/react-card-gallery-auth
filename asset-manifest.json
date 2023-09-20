@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/dmitriy9427/react-card-gallery-auth/index.html/static/css/main.ec214835.css",
-    "main.js": "/dmitriy9427/react-card-gallery-auth/index.html/static/js/main.5fc506f4.js",
-    "static/media/Inter-Medium.woff": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
-    "static/media/Inter-Black.woff": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Inter-Black.c6938660eec019fefd68.woff",
-    "static/media/Inter-Regular.woff": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Inter-Regular.8c206db99195777c6769.woff",
-    "static/media/logoza.ru.png": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/logoza.ru.d0bfeed2efec2c9d9831.png",
-    "static/media/Inter-Medium.woff2": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
-    "static/media/Inter-Black.woff2": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
-    "static/media/Inter-Regular.woff2": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "index.html": "/dmitriy9427/react-card-gallery-auth/index.html/index.html",
-    "static/media/error.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/error.d4ce2a261b68c6da973d51ef98afae1a.svg",
-    "static/media/Group.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Group.ce3b64935accf9b8212e.svg",
-    "static/media/success.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/success.a9eb6caf1da3ff48b215fb1dd9477d74.svg",
-    "static/media/Vector3.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Vector3.6c7bf05444b9793fdf6e.svg",
-    "static/media/profileEdit.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/profileEdit.ae1a976ddb506239e9f0.svg",
-    "static/media/Close-Icon.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Close-Icon.039f1f5203f653b4bacd.svg",
-    "static/media/Vector.svg": "/dmitriy9427/react-card-gallery-auth/index.html/static/media/Vector.bed8c136e13907f5eefb.svg",
-    "main.ec214835.css.map": "/dmitriy9427/react-card-gallery-auth/index.html/static/css/main.ec214835.css.map",
-    "main.5fc506f4.js.map": "/dmitriy9427/react-card-gallery-auth/index.html/static/js/main.5fc506f4.js.map"
+    "main.css": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/css/main.62e62f2b.css",
+    "main.js": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/js/main.89833d4f.js",
+    "static/media/Inter-Medium.woff": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/logoza.ru.png": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/logoza.ru.d0bfeed2efec2c9d9831.png",
+    "static/media/Inter-Medium.woff2": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "index.html": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/index.html",
+    "static/media/error.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/error.d4ce2a261b68c6da973d51ef98afae1a.svg",
+    "static/media/Group.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Group.ce3b64935accf9b8212e.svg",
+    "static/media/success.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/success.a9eb6caf1da3ff48b215fb1dd9477d74.svg",
+    "static/media/Vector3.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Vector3.6c7bf05444b9793fdf6e.svg",
+    "static/media/profileEdit.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/profileEdit.ae1a976ddb506239e9f0.svg",
+    "static/media/Close-Icon.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Close-Icon.039f1f5203f653b4bacd.svg",
+    "static/media/Vector.svg": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/media/Vector.bed8c136e13907f5eefb.svg",
+    "main.62e62f2b.css.map": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/css/main.62e62f2b.css.map",
+    "main.89833d4f.js.map": "/dmitriy9427/react-card-gallery-auth/tree/gh-pages/static/js/main.89833d4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec214835.css",
-    "static/js/main.5fc506f4.js"
+    "static/css/main.62e62f2b.css",
+    "static/js/main.89833d4f.js"
   ]
 }
