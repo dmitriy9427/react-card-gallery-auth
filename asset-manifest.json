@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-card-gallery-auth/static/css/main.8c5fbafc.css",
-    "main.js": "/react-card-gallery-auth/static/js/main.73cf959f.js",
+    "main.css": "/react-card-gallery-auth/static/css/main.2ce2efae.css",
+    "main.js": "/react-card-gallery-auth/static/js/main.f2ecd0da.js",
     "static/media/Inter-Medium.woff": "/react-card-gallery-auth/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/react-card-gallery-auth/static/media/Inter-Black.c6938660eec019fefd68.woff",
     "static/media/Inter-Regular.woff": "/react-card-gallery-auth/static/media/Inter-Regular.8c206db99195777c6769.woff",
@@ -17,11 +17,11 @@
     "static/media/profileEdit.svg": "/react-card-gallery-auth/static/media/profileEdit.ae1a976ddb506239e9f0.svg",
     "static/media/Close-Icon.svg": "/react-card-gallery-auth/static/media/Close-Icon.039f1f5203f653b4bacd.svg",
     "static/media/Vector.svg": "/react-card-gallery-auth/static/media/Vector.bed8c136e13907f5eefb.svg",
-    "main.8c5fbafc.css.map": "/react-card-gallery-auth/static/css/main.8c5fbafc.css.map",
-    "main.73cf959f.js.map": "/react-card-gallery-auth/static/js/main.73cf959f.js.map"
+    "main.2ce2efae.css.map": "/react-card-gallery-auth/static/css/main.2ce2efae.css.map",
+    "main.f2ecd0da.js.map": "/react-card-gallery-auth/static/js/main.f2ecd0da.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c5fbafc.css",
-    "static/js/main.73cf959f.js"
+    "static/css/main.2ce2efae.css",
+    "static/js/main.f2ecd0da.js"
   ]
 }
