@@ -1,9 +1,15 @@
-.login__input{
-    border: none;
-    outline: none;
-    border-bottom:#CCCCCC 2px solid;
-    margin-top: 57px;
-    background-color: black;
-    color: #FFFFFF;
-    width: 100%;
+.login__input {
+  border: none;
+  outline: none;
+  border-bottom: #cccccc 2px solid;
+  margin-top: 40px;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .login__input {
+    margin-top: 30px;
+  }
 }

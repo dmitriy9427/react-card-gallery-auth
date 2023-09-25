@@ -53,7 +53,7 @@ function App() {
       .finally(() => {
         setTimeout(() => {
           setIsInfoTooltipPopupOpen(false);
-        }, 1200);
+        }, 1500);
       });
   }
 

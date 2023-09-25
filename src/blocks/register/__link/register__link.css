@@ -1,6 +1,7 @@
-.register__link{
-    font-size: 14px;
-    color: #FFFFFF;
-    line-height: 16.94px;
-    text-decoration: none;
+.register__link {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16.94px;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
