@@ -2,6 +2,13 @@
 
 <a href="https://dmitriy9427.github.io/react-card-gallery-auth/" target="_blank">Ссылка на проект</a>
 
+<a href="https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?type=design&node-id=0-1&mode=design&t=MAEMM9JLmgSFX7JY-0" target="_blank">Ссылка на макет</a>
+
+## Описание
+
+Одностраничный сайт c адаптивной версткой в диапазоне от 320px до 1280px, создан с использованием React и JavaScript.
+Реализован по правилам flexbox, grid, используется CSS анимация, медиазапросы, подключены шрифты. Файловая структура организована по Nested БЭМ. Проект подключён к серверу через API.
+
 ### Функциональность:
 
 - Регистрация профиля пользователя;
