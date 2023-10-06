@@ -36,7 +36,7 @@
 После установки GIT, склонируйте репозиторий к себе на компьютер с помощью команды:
 
 ```
-git clone https://github.com/dmitriy9427/react-pizza.git
+git clone https://github.com/dmitriy9427/react-card-gallery-auth.git
 ```
 
 Далее установите редактор кода, я использую Visual Studio Code, скачать можно по ссылке указанной ниже.
