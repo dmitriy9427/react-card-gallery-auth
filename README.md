@@ -25,12 +25,12 @@
 ### Стек:
 
 - HTML5;
-- CCS3(БЭМ);
+- CCS3 (БЭМ);
 - JS;
 - React.js;
   - функциональные компоненты React;
-  - ReactHooks(useEffect, useState, useRef, useContext)
-  - ReactRouter(v6.4);
+  - ReactHooks (useEffect, useState, useRef, useContext)
+  - ReactRouter (v6.4);
 - REST API;
 - Асинхронные запросы;
 
