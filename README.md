@@ -1,8 +1,10 @@
 # Проект Галерея карточек.
 
-<a href="https://dmitriy9427.github.io/react-card-gallery-auth/" target="_blank">Ссылка на проект</a>
+## Ссылки:
 
-<a href="https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?type=design&node-id=0-1&mode=design&t=MAEMM9JLmgSFX7JY-0" target="_blank">Ссылка на макет</a>
+<a href="https://dmitriy9427.github.io/react-card-gallery-auth/" target="_blank">Демо версия.</a>
+
+<a href="https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?type=design&node-id=0-1&mode=design&t=MAEMM9JLmgSFX7JY-0" target="_blank">Макет.</a>
 
 ## Описание
 
